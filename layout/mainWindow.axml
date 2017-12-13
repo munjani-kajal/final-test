@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:minWidth="25px"
+    android:minHeight="25px">
+  <ScrollView
+      android:layout_width="match_parent"
+      android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+      <ImageView
+          android:src="@drawable/fishbot"
+          android:layout_width="match_parent"
+          android:layout_height="99.5dp"
+          android:id="@+id/imgFishbot"
+          android:layout_marginTop="174.5dp"
+          android:layout_marginBottom="0.0dp" />
+      <ImageView
+          android:src="@drawable/auctionin"
+          android:layout_width="match_parent"
+          android:layout_height="99.5dp"
+          android:id="@+id/imgAuctioning"
+          android:layout_marginTop="20.5dp" />
+      <ImageView
+          android:src="@drawable/processing"
+          android:layout_width="match_parent"
+          android:layout_height="99.5dp"
+          android:id="@+id/imgProcessing"
+          android:layout_marginTop="20.5dp" />
+      <ImageView
+          android:src="@drawable/chat"
+          android:layout_width="match_parent"
+          android:layout_height="99.5dp"
+          android:id="@+id/imgChat"
+          android:layout_marginTop="20.5dp" />
+    </LinearLayout>
+  </ScrollView>
+</LinearLayout>
